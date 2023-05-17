@@ -1,33 +1,25 @@
 ---
-title: "Learning Server-Side Web Security - Use-Cases"
+title: "Learning Client-Side Web Security - Use-Cases"
 ---
 
 This is a Quarto website.
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
-# Master Server-Side Web Security
+# Master Client-Side Web Security
 
 ```{mermaid}
 flowchart LR
-  A[Learner] --> B(UC: Master SQL Injection)
-  A[Learner] --> C(UC: Master Authentication)
-  A[Learner] --> D(UC: Master Directory Traversal)
-  A[Learner] --> E(UC: Master Command Injection)
-  A[Learner] --> F(UC: Master Business Logic Vulnerabilities)
-  A[Learner] --> G(UC: Master Information Disclosure)
-  A[Learner] --> H(UC: Master Access Control)
-  A[Learner] --> I(UC: Master File Upload Vulnerabilities)
-  A[Learner] --> J(UC: Master Server-Side Request Forgery)
-  A[Learner] --> K(UC: Master XXE Injection)
-  B --> L{Abstract UC: Master Server-Side Web Security}
-  C --> L{Abstract UC: Master Server-Side Web Security}
-  D --> L{Abstract UC: Master Server-Side Web Security}
-  E --> L{Abstract UC: Master Server-Side Web Security}
-  F --> L{Abstract UC: Master Server-Side Web Security}
-  G --> L{Abstract UC: Master Server-Side Web Security}
-  H --> L{Abstract UC: Master Server-Side Web Security}
-  I --> L{Abstract UC: Master Server-Side Web Security}
-  J --> L{Abstract UC: Master Server-Side Web Security}
-  K --> L{Abstract UC: Master Server-Side Web Security}  
+  A[Learner] --> B(UC: Master Cross-Site Scripting)
+  A[Learner] --> C(UC: Master Cross-Site Request Forgery)
+  A[Learner] --> D(UC: Master Cross-Origin Resource Sharing)
+  A[Learner] --> E(UC: Master Clickjacking)
+  A[Learner] --> F(UC: Master DOM-Based Vulnerabilities)
+  A[Learner] --> G(UC: Master WebSockets)
+  B --> H{Abstract UC: Master Client-Side Web Security}
+  C --> H{Abstract UC: Master Client-Side Web Security}
+  D --> H{Abstract UC: Master Client-Side Web Security}
+  E --> H{Abstract UC: Master Client-Side Web Security}
+  F --> H{Abstract UC: Master Client-Side Web Security}
+  G --> H{Abstract UC: Master Client-Side Web Security}  
 ```
