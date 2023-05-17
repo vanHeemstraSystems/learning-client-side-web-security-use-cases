@@ -3,22 +3,18 @@ project:
   output-dir: docs
 
 website:
-  title: "Learning Web Security - Use-Cases"
+  title: "Learning Client-Side Web Security - Use-Cases"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
-      - sql-injection.qmd
-      - authentication.qmd
-      - directory-traversal.qmd
-      - command-injection.qmd
-      - business-logic-vulnerabilities.qmd
-      - information-disclosure.qmd
-      - access-control.qmd
-      - file-upload-vulnerabilities.qmd
-      - server-side-request-forgery.qmd
-      - xxe-injection.qmd
+      - cross-site-scripting.qmd
+      - cross-site-request-forgery.qmd
+      - cross-origin-resource-sharing.qmd
+      - clickjacking.qmd
+      - dom-based-vulnerabilities.qmd
+      - websockets.qmd
 
 format:
   html:
