@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Learning Client-Side Web Security - Use-Cases - Learning Server-Side Web Security - Use-Cases</title>
+<title>Learning Client-Side Web Security - Use-Cases</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -131,7 +131,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#master-server-side-web-security" id="toc-master-server-side-web-security" class="nav-link active" data-scroll-target="#master-server-side-web-security">Master Server-Side Web Security</a></li>
+  <li><a href="#master-client-side-web-security" id="toc-master-client-side-web-security" class="nav-link active" data-scroll-target="#master-client-side-web-security">Master Client-Side Web Security</a></li>
   </ul>
 </nav>
     </div>
@@ -140,7 +140,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Learning Server-Side Web Security - Use-Cases</h1>
+<h1 class="title">Learning Client-Side Web Security - Use-Cases</h1>
 </div>
 
 
@@ -157,33 +157,25 @@ ul.task-list li input[type="checkbox"] {
 
 <p>This is a Quarto website.</p>
 <p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
-<section id="master-server-side-web-security" class="level1">
-<h1>Master Server-Side Web Security</h1>
+<section id="master-client-side-web-security" class="level1">
+<h1>Master Client-Side Web Security</h1>
 <div class="cell">
 <div class="cell-output-display">
 <div>
 <div>
 <pre class="mermaid mermaid-js">flowchart LR
-  A[Learner] --&gt; B(UC: Master SQL Injection)
-  A[Learner] --&gt; C(UC: Master Authentication)
-  A[Learner] --&gt; D(UC: Master Directory Traversal)
-  A[Learner] --&gt; E(UC: Master Command Injection)
-  A[Learner] --&gt; F(UC: Master Business Logic Vulnerabilities)
-  A[Learner] --&gt; G(UC: Master Information Disclosure)
-  A[Learner] --&gt; H(UC: Master Access Control)
-  A[Learner] --&gt; I(UC: Master File Upload Vulnerabilities)
-  A[Learner] --&gt; J(UC: Master Server-Side Request Forgery)
-  A[Learner] --&gt; K(UC: Master XXE Injection)
-  B --&gt; L{Abstract UC: Master Server-Side Web Security}
-  C --&gt; L{Abstract UC: Master Server-Side Web Security}
-  D --&gt; L{Abstract UC: Master Server-Side Web Security}
-  E --&gt; L{Abstract UC: Master Server-Side Web Security}
-  F --&gt; L{Abstract UC: Master Server-Side Web Security}
-  G --&gt; L{Abstract UC: Master Server-Side Web Security}
-  H --&gt; L{Abstract UC: Master Server-Side Web Security}
-  I --&gt; L{Abstract UC: Master Server-Side Web Security}
-  J --&gt; L{Abstract UC: Master Server-Side Web Security}
-  K --&gt; L{Abstract UC: Master Server-Side Web Security}  
+  A[Learner] --&gt; B(UC: Master Cross-Site Scripting)
+  A[Learner] --&gt; C(UC: Master Cross-Site Request Forgery)
+  A[Learner] --&gt; D(UC: Master Cross-Origin Resource Sharing)
+  A[Learner] --&gt; E(UC: Master Clickjacking)
+  A[Learner] --&gt; F(UC: Master DOM-Based Vulnerabilities)
+  A[Learner] --&gt; G(UC: Master WebSockets)
+  B --&gt; H{Abstract UC: Master Client-Side Web Security}
+  C --&gt; H{Abstract UC: Master Client-Side Web Security}
+  D --&gt; H{Abstract UC: Master Client-Side Web Security}
+  E --&gt; H{Abstract UC: Master Client-Side Web Security}
+  F --&gt; H{Abstract UC: Master Client-Side Web Security}
+  G --&gt; H{Abstract UC: Master Client-Side Web Security}  
 </pre>
 </div>
 </div>
