@@ -1,5 +1,0 @@
----
-title: "Directory Traversal"
----
-
-About this site
