@@ -1,5 +1,0 @@
----
-title: "File Upload Vulnerabilities"
----
-
-About this site
