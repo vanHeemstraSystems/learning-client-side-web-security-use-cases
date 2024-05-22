@@ -1,8 +1,8 @@
 [
   {
-    "objectID": "dom-based-vulnerabilities.html",
-    "href": "dom-based-vulnerabilities.html",
-    "title": "DOM-Based Vulnerabilities",
+    "objectID": "cross-site-scripting.html",
+    "href": "cross-site-scripting.html",
+    "title": "Cross-Site Scripting",
     "section": "",
     "text": "About this site"
   },
@@ -14,6 +14,13 @@
     "text": "About this site"
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Learning Client-Side Web Security - Use-Cases",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\nMaster Client-Side Web Security\n\n\n\n\n\nflowchart LR\n  A[Learner] --&gt; B(UC: Master Cross-Site Scripting)\n  A[Learner] --&gt; C(UC: Master Cross-Site Request Forgery)\n  A[Learner] --&gt; D(UC: Master Cross-Origin Resource Sharing)\n  A[Learner] --&gt; E(UC: Master Clickjacking)\n  A[Learner] --&gt; F(UC: Master DOM-Based Vulnerabilities)\n  A[Learner] --&gt; G(UC: Master WebSockets)\n  B --&gt; H{Abstract UC: Master Client-Side Web Security}\n  C --&gt; H{Abstract UC: Master Client-Side Web Security}\n  D --&gt; H{Abstract UC: Master Client-Side Web Security}\n  E --&gt; H{Abstract UC: Master Client-Side Web Security}\n  F --&gt; H{Abstract UC: Master Client-Side Web Security}\n  G --&gt; H{Abstract UC: Master Client-Side Web Security}"
+  },
+  {
     "objectID": "cross-site-request-forgery.html",
     "href": "cross-site-request-forgery.html",
     "title": "Cross-Site Request Forgery",
@@ -21,9 +28,9 @@
     "text": "About this site"
   },
   {
-    "objectID": "cross-origin-resource-sharing.html",
-    "href": "cross-origin-resource-sharing.html",
-    "title": "Cross-Origin Resource Sharing",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
     "text": "About this site"
   },
@@ -35,6 +42,13 @@
     "text": "About this site"
   },
   {
+    "objectID": "dom-based-vulnerabilities.html",
+    "href": "dom-based-vulnerabilities.html",
+    "title": "DOM-Based Vulnerabilities",
+    "section": "",
+    "text": "About this site"
+  },
+  {
     "objectID": "SUMMARY.html",
     "href": "SUMMARY.html",
     "title": "Table of contents",
@@ -42,23 +56,9 @@
     "text": "Table of contents\n\nLearning Client-Side Web Security - Use Cases"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Learning Client-Side Web Security - Use-Cases",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\nMaster Client-Side Web Security\n\n\n\n\nflowchart LR\n  A[Learner] --&gt; B(UC: Master Cross-Site Scripting)\n  A[Learner] --&gt; C(UC: Master Cross-Site Request Forgery)\n  A[Learner] --&gt; D(UC: Master Cross-Origin Resource Sharing)\n  A[Learner] --&gt; E(UC: Master Clickjacking)\n  A[Learner] --&gt; F(UC: Master DOM-Based Vulnerabilities)\n  A[Learner] --&gt; G(UC: Master WebSockets)\n  B --&gt; H{Abstract UC: Master Client-Side Web Security}\n  C --&gt; H{Abstract UC: Master Client-Side Web Security}\n  D --&gt; H{Abstract UC: Master Client-Side Web Security}\n  E --&gt; H{Abstract UC: Master Client-Side Web Security}\n  F --&gt; H{Abstract UC: Master Client-Side Web Security}\n  G --&gt; H{Abstract UC: Master Client-Side Web Security}"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "cross-site-scripting.html",
-    "href": "cross-site-scripting.html",
-    "title": "Cross-Site Scripting",
+    "objectID": "cross-origin-resource-sharing.html",
+    "href": "cross-origin-resource-sharing.html",
+    "title": "Cross-Origin Resource Sharing",
     "section": "",
     "text": "About this site"
   }

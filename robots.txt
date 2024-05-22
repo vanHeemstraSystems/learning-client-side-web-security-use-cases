@@ -1,1 +1,1 @@
-Sitemap: https://github.com/vanHeemstraSystems/learning-client-side-web-security-use-cases/sitemap.xml
+Sitemap: https://vanHeemstraSystems.github.io/learning-client-side-web-security-use-cases/sitemap.xml
